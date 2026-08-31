@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+.env
+
+# Raw & processed data (LendingClub files are >1.5GB)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python/Jupyter artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
